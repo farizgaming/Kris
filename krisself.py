@@ -15,7 +15,7 @@ from googletrans import Translator
 
 kr = KRIS.LINE()
 #kr.login(qr=True)
-kr.login(token='')#r
+kr.login(token='')
 kr.loginResult()
 
 print "╔════════════════════════════════════════════════════\n╠❂➣[KRIS BERHASIL LOGIN]\n╚════════════════════════════════════════════════════"
@@ -24,11 +24,6 @@ sys.setdefaultencoding('utf-8')
 
 helpmsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣google (text)
 ║╠❂➣playstore (text)
@@ -63,11 +58,6 @@ helpmsg ="""
 
 keymsg ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣keypro
 ║╠❂➣keyself
@@ -80,11 +70,6 @@ keymsg ="""
 
 helppro ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣mode on/off
 ║╠❂➣protect on/off
@@ -96,11 +81,6 @@ helppro ="""
 
 helpself ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣Me
 ║╠❂➣Myname:
@@ -129,11 +109,6 @@ helpself ="""
 
 helpset ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣contact on/off
 ║╠❂➣autojoin on/off
@@ -153,11 +128,6 @@ helpset ="""
 
 helpgrup ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣Link on
 ║╠❂➣Url
@@ -183,11 +153,6 @@ helpgrup ="""
 
 helptranslate ="""
 ╔═════════════
-║ ✰ tɛǟʍ ċʏɮɛʀ-ǟʀʍʏ ɮօt ✰
-╠═════════════
-║ Owner : Kris
-║ line://ti/p/~krissthea
-╠═════════════
 ║╔════════════
 ║╠❂➣Id@en
 ║╠❂➣En@id
@@ -209,7 +174,7 @@ KAC=[kr]
 mid = kr.getProfile().mid
 
 Bots=[mid]
-admin=["u31ef22df7f538df1d74dc7f756ef1a32","u9cc2323f5b84f9df880c33aa9f9e3ae1",mid]
+admin=["uc8487830df0446e693d46f5642e25b7a",mid]
 
 wait = {
     "likeOn":False,
@@ -1067,13 +1032,13 @@ def bot(op):
                 else:md+="╠❂➣Cancel Protect:off [❌]\n╚═════════════"
                 kr.sendText(msg.to,md)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                msg.contentMetadata = {'mid': "uc8487830df0446e693d46f5642e25b7a"}
                 kr.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u31ef22df7f538df1d74dc7f756ef1a32"}
+                msg.contentMetadata = {'mid': "uc8487830df0446e693d46f5642e25b7a"}
                 kr.sendMessage(msg)
-                kr.sendText(msg.to,'❂➣ Creator yang manis kalem  􀜁􀄯􏿿')
+                kr.sendText(msg.to,'❂➣ Creator  􀜁􀄯􏿿')
             elif msg.text.lower() == 'autoadd on':
                 if wait["autoAdd"] == True:
                     if wait["lang"] == "JP":
