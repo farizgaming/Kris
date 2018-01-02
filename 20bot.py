@@ -1731,7 +1731,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': admsa}
+                msg.contentMetadata = {'mid': 'uc8487830df0446e693d46f5642e25b7a'}
                 cl.sendText(msg.to,"􂤁􀆋My Creator")
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"􂤁􀆊Powered by tɛαʍ ¢ʏβɛʀ-αʀʍʏ βΦt")
@@ -2259,6 +2259,7 @@ def bot(op):
 									kk.sendText(msg.to)
 #----------------------------------------------   
            elif 'music ' in msg.text.lower():
+             if msg.from_ in admin:
                 try:
                     songname = msg.text.lower().replace('music ','')
                     params = {'songname': songname}
@@ -2826,7 +2827,7 @@ def bot(op):
 
             elif msg.text in ["Sp","Speed","speed"]:
                 start = time.time()
-                cl.sendText(msg.to, "Wait goblok")
+                cl.sendText(msg.to, "Sabar bos.....")
                 elapsed_time = time.time() - start
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
 
@@ -4254,6 +4255,7 @@ def bot(op):
                         pass
 #-----------------------------------------------
             elif msg.text in ["Salam1"]:
+              if msg.from_ in admin:
                 cl.sendText(msg.to,"السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ")
                 cl.sendText(msg.to,"Assalamu'alaikum")
             elif msg.text in ["Salam2"]:
