@@ -1,92 +1,92 @@
 # -*- coding: utf-8 -*-
 
-import LINETCR
+import KRIS
 from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,datetime,random,sys,re,os,json,subprocess,codecs,threading,glob
 
-cl = LINETCR.LINE()
+cl = KRIS.LINE()
 cl.login(qr=True)
 cl.loginResult()
 
-ki = LINETCR.LINE() #bot1
-ki.login(qr=True)
+ki = KRIS.LINE() #bot1
+ki.login(token='')
 ki.loginResult()
 
-ki2 = LINETCR.LINE() #bot2
-ki2.login(qr=True)
+ki2 = KRIS.LINE() #bot2
+ki2.login(token='')
 ki2.loginResult()
 
-ki3 = LINETCR.LINE() #bot3
-ki3.login(qr=True)
+ki3 = KRIS.LINE() #bot3
+ki3.login(token='')
 ki3.loginResult()
 
-ki4 = LINETCR.LINE() #bot4
-ki4.login(qr=True)
+ki4 = KRIS.LINE() #bot4
+ki4.login(token='')
 ki4.loginResult()
 
-ki5 = LINETCR.LINE() #bot5
-ki5.login(qr=True)
+ki5 = KRIS.LINE() #bot5
+ki5.login(token='')
 ki5.loginResult()
 
-ki6 = LINETCR.LINE() #bot6
-ki6.login(qr=True)
+ki6 = KRIS.LINE() #bot6
+ki6.login(token='')
 ki6.loginResult()
 
-ki7 = LINETCR.LINE() #bot7
-ki7.login(qr=True)
+ki7 = KRIS.LINE() #bot7
+ki7.login(token='')
 ki7.loginResult()
 
-ki8 = LINETCR.LINE() #bot8
-ki8.login(qr=True)
+ki8 = KRIS.LINE() #bot8
+ki8.login(token='')
 ki8.loginResult()
 
-ki9 = LINETCR.LINE() #bot9
-ki9.login(qr=True)
+ki9 = KRIS.LINE() #bot9
+ki9.login(token='')
 ki9.loginResult()
 
-ki10 = LINETCR.LINE() #bot10
-ki10.login(qr=True)
+ki10 = KRIS.LINE() #bot10
+ki10.login(token='')
 ki10.loginResult()
 
-ki11 = LINETCR.LINE() #bot11
-ki11.login(qr=True)
+ki11 = KRIS.LINE() #bot11
+ki11.login(token='')
 ki11.loginResult()
 
-ki12 = LINETCR.LINE() #bot12
-ki12.login(qr=True)
+ki12 = KRIS.LINE() #bot12
+ki12.login(token='')
 ki12.loginResult()
 
-ki13 = LINETCR.LINE() #bot13
-ki13.login(qr=True)
+ki13 = KRIS.LINE() #bot13
+ki13.login(token='')
 ki13.loginResult()
 
-ki14 = LINETCR.LINE() #bot14
-ki14.login(qr=True)
+ki14 = KRIS.LINE() #bot14
+ki14.login(token='')
 ki14.loginResult()
 
-ki15 = LINETCR.LINE() #bot15
-ki15.login(qr=True)
+ki15 = KRIS.LINE() #bot15
+ki15.login(token='')
 ki15.loginResult()
 
-ki16 = LINETCR.LINE() #bot16
-ki16.login(qr=True)
+ki16 = KRIS.LINE() #bot16
+ki16.login(token='')
 ki16.loginResult()
 
-ki17 = LINETCR.LINE() #bot17
-ki17.login(qr=True)
+ki17 = KRIS.LINE() #bot17
+ki17.login(token='')
 ki17.loginResult()
 
-ki18 = LINETCR.LINE() #bot18
-ki18.login(qr=True)
+ki18 = KRIS.LINE() #bot18
+ki18.login(token='')
 ki18.loginResult()
 
-ki19 = LINETCR.LINE() #bot19
-ki19.login(qr=True)
+ki19 = KRIS.LINE() #bot19
+ki19.login(token='')
 ki19.loginResult()
 
-ki20 = LINETCR.LINE() #bot20
-ki20.login(qr=True)
+ki20 = KRIS.LINE() #bot20
+ki20.login(token='')
 ki20.loginResult()
 
 reload(sys)
